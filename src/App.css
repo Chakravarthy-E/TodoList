@@ -1,0 +1,68 @@
+
+.todo-list-container {
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  height: auto;
+  font-family: sans-serif;
+ 
+}
+
+.task-input {
+  display: block;
+  margin: 10px auto;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-task-btn {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #173b61;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  font-size: 20px;
+  text-transform: capitalize;
+
+}
+
+.task-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-left: 100px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #07ff8b;
+  color: #fff;
+  margin-right: -90px;
+}
+
+.delete-btn {
+  background-color: #c02333;
+  color: #fff;
+}
